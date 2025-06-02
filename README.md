@@ -2,7 +2,7 @@
 A typing effect component for TextMeshPro that simulates typewriter-style text animation. Supports rich text formatting, customizable timing, optional blinking caret, and asynchronous playback.
 
 ## Rich Text
-Natively supports rich text, just pass the message parameter with the tags, example using full methos async with custom time and multiple messages:
+Natively supports rich text, just pass the message parameter with the tags, example using full method async with custom time and multiple messages:
 ``` csharp
 typingEffect.PlayTextsSequentially(
 	2f,
